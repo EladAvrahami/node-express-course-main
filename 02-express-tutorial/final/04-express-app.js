@@ -3,11 +3,11 @@ const path = require('path')
 
 const app = express()
 
-// setup static and middleware
-app.use(express.static('./public'))
+// setup static and middleware (create new public folder )
+app.use(express.static('./public'))//by using express.static files will be available all over the program
 
 app.get('/', (req, res) => {
-  res.sendFile(path.resolve(__dirname, './navbar-app/index.html'))
+  res.sendFile(path.resolve(__dirname, './navbar-app/index.html'))//we can also use path.join()
 })
 
 app.all('*', (req, res) => {

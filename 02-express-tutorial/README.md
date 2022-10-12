@@ -9,3 +9,5 @@ writeHead - יישלח גם ססטוס קוד וגם תצוגת 57
 3 res.write(declared variable)
 
 </br>
+
+by using express.static ,files will be available all over the program 63
