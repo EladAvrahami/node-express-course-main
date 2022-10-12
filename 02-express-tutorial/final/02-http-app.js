@@ -3,6 +3,7 @@ const { readFileSync } = require('fs')
 
 // get all files
 const homePage = readFileSync('./navbar-app/index.html') //read file and call that homePage 
+//need to call al the other file because index.html have ref to them
 const homeStyles = readFileSync('./navbar-app/styles.css')
 const homeImage = readFileSync('./navbar-app/logo.svg')
 const homeLogic = readFileSync('./navbar-app/browser-app.js')
