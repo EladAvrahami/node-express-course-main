@@ -5,7 +5,7 @@ const server = http.createServer((req, res) => {
   const url = req.url
   // home page
   if (url === '/') {
-    res.writeHead(200, { 'content-type': 'text/html' })
+    res.writeHead(200, { 'content-type': 'text/html' }) //writeHead - יישלח גם ססטוס קוד וגם תצוגת
     res.write('<h1>home page</h1>')
     res.end()
   }
