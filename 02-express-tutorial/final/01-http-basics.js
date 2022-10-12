@@ -2,6 +2,7 @@ const http = require('http')
 
 const server = http.createServer((req, res) => {
   // console.log(req.method)
+  // console.log(req.url)  
   const url = req.url
   // home page
   if (url === '/') {
