@@ -2,7 +2,7 @@ const http = require('http')
 const { readFileSync } = require('fs')
 
 // get all files
-const homePage = readFileSync('./navbar-app/index.html')
+const homePage = readFileSync('./navbar-app/index.html') //read file and call that homePage 
 const homeStyles = readFileSync('./navbar-app/styles.css')
 const homeImage = readFileSync('./navbar-app/logo.svg')
 const homeLogic = readFileSync('./navbar-app/browser-app.js')
@@ -13,14 +13,14 @@ const server = http.createServer((req, res) => {
   console.log(url)
   // home page
   if (url === '/') {
-    res.writeHead(200, { 'content-type': 'text/html' })
-    res.write(homePage)
+    res.writeHead(200, { 'content-type': 'text/html' })//how the content will be presented
+    res.write(homePage) //by ref to home page 
     res.end()
   }
   // about page
   else if (url === '/about') {
     res.writeHead(200, { 'content-type': 'text/html' })
-    res.write('<h1>about page</h1>')
+    res.write('<h1>about page</h1>')//simple html 
     res.end()
   }
   // styles
