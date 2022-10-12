@@ -1,6 +1,34 @@
 # Node and Express Tutorial
 
 #### Node Course
+
+how to switch between folder projects in this folder -> 55,4:00
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!--
 [Node Tutorial and Projects Course](https://www.udemy.com/course/nodejs-tutorial-and-projects-course/?referralCode=E94792BEAE9ADD204BC7)
 
