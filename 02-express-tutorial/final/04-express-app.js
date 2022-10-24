@@ -19,4 +19,5 @@ app.all('*', (req, res) => {
 
 app.listen(5000, () => {
   console.log('server is listening on port 5000....')
+   //when start the app open http://localhost:5000/ in browser
 })
